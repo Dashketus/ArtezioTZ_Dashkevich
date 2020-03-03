@@ -1,0 +1,67 @@
+[
+  {
+    "fullName": "Vadzim Dashkevich",
+    "position": "Junior Web Developer",
+    "phone": "+375(29) 533 81 24",
+    "email": "vadzimdashkevich@yandex.by",
+    "sex": "male",
+    "age": 20,
+    "image": "https://sun9-49.userapi.com/c858416/v858416898/d60e1/GLuaw1XLyjs.jpg?ava=1",
+    "sections": [
+      {
+        "title": "WORK EXPERIENCE",
+        "isOpen": false,
+        "items": [
+          {
+            "title": "No work experience"
+          }
+        ]
+      },
+      {
+        "title": "EDUCATION",
+        "isOpen": false,
+        "items": [
+          {
+          "title": "Polessky State University",
+          "subTitle": "Engineer-Programmer-Economist",
+          "from": "2016",
+          "to": "2020"
+        }
+      ]
+    },
+      {
+        "title": "SKILLS",
+        "isOpen": false,
+        "items": [
+          {
+          "title": "JavaScript",
+          "items": [
+            "ES5",
+            "ES6",
+            "ES7"
+          ] 
+        },
+        {
+          "title": "HTML5"
+        },
+        {
+          "title": "CSS"
+        }
+      ]
+    },
+      {
+        "title": "TOOLS",
+        "isOpen": false,
+        "items": [
+          {
+          "title": "Visual Studio Code"
+        },
+
+        {
+          "title": "WebStorm"
+        }
+      ]
+    }
+    ]
+  }
+]
