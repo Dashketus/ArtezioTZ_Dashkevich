@@ -6,7 +6,7 @@ const emailContainer = document.querySelector(".email");
 const mainContainer = document.querySelector("main");
 const endBtn = document.querySelector(".btn-send");
 
-fetch("../data.json")
+fetch("data.json")
   .then(res => res.json())
   .then(res => {
     fillData(res);
