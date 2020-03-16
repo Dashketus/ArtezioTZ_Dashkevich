@@ -1,5 +1,7 @@
 body {
   font-family: "Rubik";
+  background-image: url(../images/green.jpg); 
+  /* background-repeat: no-repeat; */
 }
 
 .container {
@@ -11,6 +13,7 @@ body {
 .contact-section {
   display: flex;
   justify-content: flex-start;
+  color: #f1f2f6;
 }
 
 .contact-photo {
@@ -27,12 +30,13 @@ body {
 }
 
 .section-title-container {
-  background: #e7e7e7;
+  background: #218c74;
   padding: 0.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  box-shadow: 0 0 5px black;
 }
 
 .section-title-container > h2 {
@@ -45,27 +49,34 @@ body {
   margin-left: auto;
   border: none;
   padding: 0.65rem 3rem;
-  background: black;
-  color: #fff;
+  background: #ffb142;
+  color: #1e272e;
+  box-shadow: 0 0 20px black;
+}
+
+.btn-send:hover {
+  background: #f9ca24;
   cursor: pointer;
 }
 
-.content-subtitle {
-  color: #4269a3;
+.content-subtitle, .content-title {
+  color: #d2dae2;
 }
 
 .content-date {
-  color: #a6a6a6;
+  color: #d2dae2;
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: circle;
   padding-left: 1rem;
 }
 
 ul > li {
   margin: 0.5rem 0;
   padding: 0.25rem;
+  
+  color: #d2dae2;
 }
 
 .show {
